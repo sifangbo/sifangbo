@@ -3,14 +3,14 @@
 Welcome to my personal academic website repository.
 The site is hosted via **GitHub Pages** at: `https://sifangbo.github.io/sifangbo/`
 
-### What's included
+### Files in this repository
 
 | File | Purpose |
 |------|---------|
 | `index.html` | Main personal website page |
 | `style.css` | Stylesheet for the website |
-| `photo.jpg` | Profile photo *(add your own image with this name)* |
-| `cv.pdf` | CV / Résumé *(add your own PDF with this name)* |
+| `photo.jpg` | Profile photo placeholder — replace with your own photo |
+| `cv.pdf` | CV / Résumé placeholder — replace with your own PDF |
 
 ### Sections
 
@@ -23,6 +23,6 @@ The site is hosted via **GitHub Pages** at: `https://sifangbo.github.io/sifangbo
 ### Personalizing the site
 
 1. Replace placeholder text in `index.html` with your real information.
-2. Add `photo.jpg` (your photo) to the repository root and update the `<img>` tag in `index.html`.
-3. Add `cv.pdf` to the repository root for the CV download link.
+2. Overwrite `photo.jpg` with your actual profile photo (keep the same filename).
+3. Overwrite `cv.pdf` with your actual CV/résumé (keep the same filename).
 4. Enable **GitHub Pages** in *Settings → Pages → Source: main branch / root*.
