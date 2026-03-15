@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sifang Bo — Personal Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ Navigation ============ -->
+  <nav aria-label="Site navigation">
+    <div class="container">
+      <span class="nav-name">Sifang Bo</span>
+      <ul class="nav-links">
+        <li><a href="#profile">Home</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ============ Profile ============ -->
+  <section id="profile" aria-label="Profile">
+    <div class="container">
+      <div class="profile-inner">
+
+        <!-- Replace the placeholder below with:
+             <img class="profile-photo" src="photo.jpg" alt="Sifang Bo">
+             once you add your photo to the repository. -->
+        <div class="profile-photo-placeholder" role="img" aria-label="Profile photo placeholder">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#4a90d9">
+            <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/>
+          </svg>
+        </div>
+
+        <div class="profile-info">
+          <h1>Sifang Bo</h1>
+          <p class="title">Ph.D. Student / Researcher</p>
+          <p class="affiliation">Department of Computer Science · University Name</p>
+          <p class="bio">
+            I am a researcher with interests in machine learning, natural language processing,
+            and knowledge graphs. My work focuses on building intelligent systems that can
+            reason over structured and unstructured data. I am passionate about bridging the
+            gap between theoretical research and real-world applications.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:sifangbo@example.com" aria-label="Email">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
+              </svg>
+              Email
+            </a>
+            <a href="https://github.com/sifangbo" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/>
+              </svg>
+              GitHub
+            </a>
+            <a href="https://scholar.google.com" target="_blank" rel="noopener" aria-label="Google Scholar">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M5.242 13.769 0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/>
+              </svg>
+              Google Scholar
+            </a>
+            <a href="cv.pdf" aria-label="Download CV">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm4 18H6V4h7v5h5v11zM8 15h8v2H8v-2zm0-4h8v2H8v-2z"/>
+              </svg>
+              CV / Résumé
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Education ============ -->
+  <section id="education" aria-labelledby="edu-heading">
+    <div class="container">
+      <h2 id="edu-heading">Education</h2>
+      <ul class="edu-list">
+
+        <li class="edu-item">
+          <div class="edu-logo" aria-hidden="true">🎓</div>
+          <div class="edu-details">
+            <strong>University Name</strong>
+            <span class="degree">Ph.D. in Computer Science</span>
+            <!-- Update the end year (or keep "Present") to match your expected graduation -->
+            <span class="period">2022 – Present · City, Country</span>
+          </div>
+        </li>
+
+        <li class="edu-item">
+          <div class="edu-logo" aria-hidden="true">🎓</div>
+          <div class="edu-details">
+            <strong>University Name</strong>
+            <span class="degree">M.S. in Computer Science</span>
+            <span class="period">2019 – 2022 · City, Country</span>
+          </div>
+        </li>
+
+        <li class="edu-item">
+          <div class="edu-logo" aria-hidden="true">🎓</div>
+          <div class="edu-details">
+            <strong>University Name</strong>
+            <span class="degree">B.S. in Computer Science</span>
+            <span class="period">2015 – 2019 · City, Country</span>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ Research / Publications ============ -->
+  <section id="research" aria-labelledby="research-heading">
+    <div class="container">
+      <h2 id="research-heading">Research Papers</h2>
+      <ul class="paper-list">
+
+        <li class="paper-item">
+          <p class="paper-title">Paper Title One: A Novel Approach to Knowledge Graph Completion</p>
+          <p class="paper-authors"><strong>Sifang Bo</strong>, Author Two, Author Three</p>
+          <p class="paper-venue">Conference on Neural Information Processing Systems (NeurIPS), 2025</p>
+          <div class="paper-links">
+            <a href="#" target="_blank" rel="noopener">PDF</a>
+            <a href="#" target="_blank" rel="noopener">Code</a>
+            <a href="#" target="_blank" rel="noopener">arXiv</a>
+          </div>
+        </li>
+
+        <li class="paper-item">
+          <p class="paper-title">Paper Title Two: Efficient Reasoning over Large-Scale Graphs</p>
+          <p class="paper-authors">Author One, <strong>Sifang Bo</strong>, Author Three</p>
+          <p class="paper-venue">International Conference on Machine Learning (ICML), 2024</p>
+          <div class="paper-links">
+            <a href="#" target="_blank" rel="noopener">PDF</a>
+            <a href="#" target="_blank" rel="noopener">Code</a>
+          </div>
+        </li>
+
+        <li class="paper-item">
+          <p class="paper-title">Paper Title Three: Towards Robust Natural Language Understanding</p>
+          <p class="paper-authors"><strong>Sifang Bo</strong>, Author Two</p>
+          <p class="paper-venue">Annual Meeting of the Association for Computational Linguistics (ACL), 2023</p>
+          <div class="paper-links">
+            <a href="#" target="_blank" rel="noopener">PDF</a>
+            <a href="#" target="_blank" rel="noopener">arXiv</a>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ Honors & Awards ============ -->
+  <section id="awards" aria-labelledby="awards-heading">
+    <div class="container">
+      <h2 id="awards-heading">Honors &amp; Awards</h2>
+      <ul class="award-list">
+
+        <li class="award-item">
+          <span class="award-icon" aria-hidden="true">🏆</span>
+          <div class="award-details">
+            <strong>Best Paper Award</strong>
+            <span class="award-org">International Conference on Machine Learning (ICML)</span>
+            <span class="award-year">2024</span>
+          </div>
+        </li>
+
+        <li class="award-item">
+          <span class="award-icon" aria-hidden="true">🥇</span>
+          <div class="award-details">
+            <strong>Outstanding Graduate Fellowship</strong>
+            <span class="award-org">University Name Graduate School</span>
+            <span class="award-year">2022 – 2025</span>
+          </div>
+        </li>
+
+        <li class="award-item">
+          <span class="award-icon" aria-hidden="true">🌟</span>
+          <div class="award-details">
+            <strong>National Scholarship</strong>
+            <span class="award-org">Ministry of Education</span>
+            <span class="award-year">2021</span>
+          </div>
+        </li>
+
+        <li class="award-item">
+          <span class="award-icon" aria-hidden="true">🎖️</span>
+          <div class="award-details">
+            <strong>Dean's List</strong>
+            <span class="award-org">University Name, Department of Computer Science</span>
+            <span class="award-year">2017 – 2019</span>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ Contact ============ -->
+  <section id="contact" aria-labelledby="contact-heading">
+    <div class="container">
+      <h2 id="contact-heading">Contact</h2>
+      <p style="max-width:520px; color: var(--text-light);">
+        Feel free to reach out via email or connect on social media.
+        I am open to research collaborations, internship opportunities, and discussions
+        about interesting ideas.
+      </p>
+      <br />
+      <p><strong>Email:</strong> <a href="mailto:sifangbo@example.com">sifangbo@example.com</a></p>
+      <p style="margin-top:8px;"><strong>Office:</strong> Room 000, Building Name, University Name, City</p>
+    </div>
+  </section>
+
+  <!-- ============ Footer ============ -->
+  <footer>
+    <div class="container">
+      <p>© <span id="year"></span> Sifang Bo · Built with HTML &amp; CSS</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
